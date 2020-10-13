@@ -59,7 +59,32 @@
   transition: 0.8s;
 }
 
+.header-par {
+  margin: 10% 30px;
+}
 
+.header-par-border {
+  border-top: 3px solid rgb(211,219,218);
+  border-bottom: 3px solid rgb(211,219,218);
+  width: 85%;
+  margin: 0 auto;
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.header-par-border p {
+  font-family: 'Questrial', sans-serif;
+  color: rgb(76,76,76);
+  font-size: 30px; 
+  text-align: center;
+  line-height: 1.8;
+  padding: 0 15px;
+}
+
+.header-par-img {
+ width: 50px;
+ padding-top: 20px;
+}
 
 @media only screen and (max-width: 600px) {
 .mischa-image {
@@ -69,5 +94,8 @@
 .your-special {
   font-size: 25px;
   margin-bottom: 20%;
+}
+.header-par-border {
+  width: 100%;
 }
 }
