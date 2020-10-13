@@ -98,4 +98,7 @@
 .header-par-border {
   width: 100%;
 }
+.header-par-border p {
+  padding: 0;
+}
 }
