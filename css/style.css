@@ -328,13 +328,13 @@
     width: 100%;
     text-align: center;
   }
-  .bride-section1 {
-    /* width: 100%; */
-  }
   .couple-image {
-    width: 50%;
+    width: 100%;
     padding: 10px 0;
     object-fit: none;
+  }
+  .couple-image img {
+    width: 60%;
   }
   /* .white-bride-img {
     object-fit: contain;
