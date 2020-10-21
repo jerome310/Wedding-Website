@@ -347,13 +347,17 @@
     width: 60%;
   }
 
-  /* .black-bride-img {
+  .black-bride-img {
     width: 100%;
     object-fit: contain;
     padding-top: 10px;
     padding-left: 0px;
-  } */
-  /* .bride-par {
+  }
+  .black-bride-img img {
+    width: 60%;
+    object-fit: contain;
+  }
+  .bride-par {
     width: 77%;
     margin: 30px auto;
     border-top-width: 3px;
@@ -362,19 +366,19 @@
     border-bottom-width: 3px;
     border-bottom-color: rgb(211, 219, 218);
     border-bottom-style: solid;
-  } */
-  /* .bride-par p {
+  }
+  .bride-par p {
     padding: 0 25px;
-  } */
-  /* .friends-image {
+  }
+  .friends-image {
     width: 100%;
     text-align: center;
     margin-left: 0px;
-  } */
-  /* .friends-image img {
+  }
+  .friends-image img {
     width: 77%;
     object-fit: contain;
     padding-top: 10px;
     margin: 0 auto;
-  } */
+  }
 }
