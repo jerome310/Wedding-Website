@@ -332,9 +332,9 @@
     /* width: 100%; */
   }
   .couple-image {
-    width: 100%;
+    width: 50%;
     padding: 10px 0;
-    object-fit: contain;
+    object-fit: none;
   }
   /* .white-bride-img {
     object-fit: contain;
