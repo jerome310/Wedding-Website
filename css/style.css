@@ -276,6 +276,77 @@
 }
 /* end of wedding pictures */
 
+/* start of how it works section */
+.how-it-works-container {
+  margin-top: 75px;
+  background-color: rgba(239, 240, 238, 1);
+  padding-bottom: 5%;
+}
+
+.how-it-works-section-container {
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.how-it-works-container h1 {
+  padding: 50px 0;
+  text-align: center;
+  font-family: Questrial;
+  color: rgb(76, 86, 82);
+  font-weight: 100;
+}
+
+.how-it-works-section1 {
+  width: 25%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.how-it-works-heading h3 {
+  padding: 40px 0 40px 0px;
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(211, 219, 218);
+  border-bottom-style: solid;
+  width: 60%;
+  margin: 0 auto;
+  font-family: Questrial;
+  color: rgb(76, 86, 82);
+  font-weight: 400;
+  text-align: center;
+}
+
+.how-it-works-par h3 {
+  padding: 40px 75px 40px;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Questrial;
+  color: rgb(76, 76, 76);
+}
+
+.how-it-works-button {
+  display: flex;
+}
+
+.how-it-works-button a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background: rgb(116, 128, 126);
+  padding: 25px 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  margin: 0 auto;
+}
+
+.how-it-works-button a:hover {
+  background: rgb(80, 80, 80);
+  transition: 0.8s;
+}
+/* end of how it works section */
+
 @media only screen and (max-width: 600px) {
   .mischa-image {
     margin-top: 20%;
@@ -377,5 +448,13 @@
     object-fit: contain;
     padding-top: 10px;
     margin: 0 auto;
+  }
+  .how-it-works-section-container {
+    display: block;
+  }
+  .how-it-works-section1 {
+    width: 100%;
+    margin: 30px auto;
+    background-color: white;
   }
 }
