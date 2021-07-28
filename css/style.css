@@ -347,6 +347,16 @@
 }
 /* end of how it works section */
 
+/* start of footer section */
+.footer {
+  background-color: #505050;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+/* start of footer section */
+
 @media only screen and (max-width: 600px) {
   .mischa-image {
     margin-top: 20%;
